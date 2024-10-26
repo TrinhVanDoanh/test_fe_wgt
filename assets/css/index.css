@@ -1,0 +1,72 @@
+body {
+    font-family: 'Lora';
+}
+
+#container {
+    width: 1440px;
+    height: auto;
+    background-color: #fff;
+}
+
+.section__1 {
+    width: 100%;
+}
+
+.section__1-title {
+    font-family: 'Lora';
+    color: #2C2A29;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+}
+
+.section__1-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+}
+
+.section__1-content-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 810px;
+}
+
+.section__1-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__1-img-item-left,
+.section__1-img-item-right {
+    width: 379px;
+    height: 618px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.section__1-img-item-left img {
+    height: 100%;
+}
+
+.section__1-img-item-right img {
+    height: 100%;
+    object-fit: cover;
+    object-position: -210px;
+}
+
+.section__1-text {
+    font-family: 'Lora';
+    color: #2C2A29;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section__1-text-item:first-child {
+    margin-bottom: 30px;
+}
